@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class TaskStatusesSeeder extends Seeder
+class TasksStatusesSeeder extends Seeder
 {
     /**
      * Run the database seeds.
