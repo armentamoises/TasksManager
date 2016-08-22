@@ -38,6 +38,12 @@ Every user can review the task in a PDF report.
 4. `php artisan db:seed`
 
 
+#### Demo
+
+Go to: 		[tasksmanager.moisesarmenta.xyz](http://tasksmanager.moisesarmenta.xyz)
+User:		demo@yourdomain.com
+Password:	tasksdemo
+
 
 
 -----------------------------------------------
