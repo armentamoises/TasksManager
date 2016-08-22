@@ -45,6 +45,10 @@ User:		demo@yourdomain.com
 Password:	tasksdemo
 
 
+Trello Board
+[https://trello.com/b/14GtHUAw/tasks-manager](https://trello.com/b/14GtHUAw/tasks-manager)
+
+
 
 -----------------------------------------------
 
