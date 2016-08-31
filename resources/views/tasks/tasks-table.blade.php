@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-md-12">
             @if($errors->any())
-                <div class="alert alert-warning" style="padding: 2px 2px 2px 2px;">
+                <div class="alert msg alert-warning" style="padding: 2px 2px 2px 2px;">
                     @if($errors->any())
                         <ul>
                         @foreach($errors->getMessages() as $message)
@@ -31,13 +31,13 @@
                 </div>
             @endif
             @if (session('status'))
-                <div class="alert alert-success" style="padding: 10px 0px 10px 10px;">
+                <div class="alert msg alert-success" style="padding: 10px 0px 10px 10px;">
                     <strong>{{ session('status') }}</strong>
                 </div>
             @endif
 
             @if (session('error_msg'))
-                <div class="alert alert-warning" style="padding: 10px 0px 10px 10px;">
+                <div class="alert msg alert-warning" style="padding: 10px 0px 10px 10px;">
                     <strong>{{ session('error_msg') }}</strong>
                 </div>
             @endif
@@ -60,7 +60,7 @@
                 <!-- /.panel-heading -->
                 <div class="panel-body">
                     <div class="dataTable_wrapper">
-                        <table class="table table-striped table-bordered table-hover" id="tasks-table">
+                        <table class="table table-striped table-bordered table-hover my-data-table">
                             <thead>
                                 <tr>
                                     <th>ID</th>
@@ -279,6 +279,7 @@
     </script>
     <script type="text/javascript" src="/assets/datepicker/js/bootstrap-datepicker.js"></script>
     <script type="text/javascript" src="/assets/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/util.js"></script>
     <script src="js/tasks.js"></script>
     
 @stop
