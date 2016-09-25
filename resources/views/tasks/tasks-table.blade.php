@@ -248,7 +248,7 @@
 @section('style')
     <!-- DataTables CSS -->
     <link href="/assets/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
-
+    <link href="/assets/datatables/media/css/buttons.dataTables.min.css" rel="stylesheet">
     <!-- DataTables Responsive CSS -->
     <link href="/assets/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
     <link href="/assets/datepicker/css/datepicker.css" rel="stylesheet">
@@ -265,22 +265,29 @@
             *position:static;
             *display:inline;
         }
-
     </style>
     
 @stop
 
 @section('script')
     <!-- DataTables JavaScript -->
-    <script src="/assets/datatables/media/js/jquery.dataTables.js"></script>
-    <script src="/assets/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/assets/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/buttons.flash.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/jszip.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/pdfmake.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/vfs_fonts.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="/assets/datatables/media/js/buttons.print.min.js"></script>
     <script>
-        var lang = "<?php echo $lang;?>";
+        var lang    = "<?php echo $lang;?>";
+        var table   = "tasks";
     </script>
     <script type="text/javascript" src="/assets/datepicker/js/bootstrap-datepicker.js"></script>
     <script type="text/javascript" src="/assets/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="js/util.js"></script>
-    <script src="js/tasks.js"></script>
+    <script type="text/javascript" src="/js/util.js"></script>
+    <script type="text/javascript" src="/js/tasks.js"></script>
     
 @stop
 

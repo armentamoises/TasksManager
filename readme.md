@@ -38,6 +38,8 @@ Every user can review the task in a PDF report.
 4. `php artisan db:seed`
 
 
+[Trello API instructions](https://github.com/armentamoises/TasksManager/wiki)
+
 #### Demo
 
 Go to: 		[tasksmanager.moisesarmenta.xyz](http://tasksmanager.moisesarmenta.xyz)
