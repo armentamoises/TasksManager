@@ -40,18 +40,6 @@ Every user can review the task in a PDF report.
 
 [Trello API instructions](https://github.com/armentamoises/TasksManager/wiki)
 
-#### Demo
-
-Go to: 		[tasksmanager.moisesarmenta.xyz](http://tasksmanager.moisesarmenta.xyz)
-User:		demo@yourdomain.com
-Password:	tasksdemo
-
-
-Trello Board
-[https://trello.com/b/14GtHUAw/tasks-manager](https://trello.com/b/14GtHUAw/tasks-manager)
-
-
-
 -----------------------------------------------
 
 
